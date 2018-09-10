@@ -24,9 +24,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use("/res",resRouter);
 
-app.listen(5050,function () {
-    console.log("linking~~~~~~~")
-})
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
